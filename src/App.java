@@ -66,7 +66,7 @@ public class App {
         List<Message> messages = app.getMessages();
         System.out.println("\n--- Chat History ---");
         for (Message msg : messages) {
-            System.out.println(msg.getSender() + "To" + msg.getReceiver() + ":" + msg.getContent());
+            System.out.println(msg.getSender() + " To " + msg.getReceiver() + ": " + msg.getContent());
         }
     }
 }
