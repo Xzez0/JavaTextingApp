@@ -39,12 +39,12 @@ class MessagingApp {
     }
 }
 
-public class App {
+public class Messenger {
     public static void main(String[] args) {
         MessagingApp app = new MessagingApp();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the Messaging App!");
+        System.out.println("Welcome to OneWayMessenger!");
 
         while (true) {
             System.out.print("Enter your name (or 'exit' to quit): ");
