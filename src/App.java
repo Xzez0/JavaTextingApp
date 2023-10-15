@@ -10,7 +10,7 @@ class Message {
     public Message(String sender, String content, String receiver) {
         this.sender = sender;
         this.content = content;
-        this.content = receiver;
+        this.receiver = receiver;
     }
 
     public String getSender() {
